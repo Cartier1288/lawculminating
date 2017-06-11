@@ -5,7 +5,7 @@
     <title>Introduction to Law</title>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/stylesheet.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=1100; initial-scale=1.0; target-densityDpi=device-dpi" />
 
@@ -22,7 +22,15 @@
   </head>
 
   <body>
-    <h1>Introduction to Law</h1>
+    <?php
+      include 'php/header.php';
+    ?>
+    <div class="title-section">
+      <h1 class="title">Introduction to Law</h1>
+      <p class="title-description">An introduction to law in history</p>
+    </div>
     
+    <div class="body"
+
   </body>
 </html>
