@@ -70,7 +70,6 @@ body {
 .header {
 	background-color: #FFFFFF;
 	clear: both;
-	overflow: hidden;
 }
 
 .header .header-title {
@@ -120,7 +119,6 @@ body {
 
 .header .header-options li {
 	display: inline-block;
-	width: 49%;
 	width: 200px;
 
 	text-align: left;
@@ -135,7 +133,7 @@ body {
 	padding-bottom: 15px;
 }
 
-.header .header-options li a:hover {
+.header .header-options li > a:hover {
 	border-bottom: solid 1px #1B1E25;
 }
 
@@ -197,3 +195,46 @@ body {
 	display: block;
 }
 
+.section {
+	padding: 2% 20% 2% 20%;
+	color: #1B1E25;
+
+	font-family: "Quicksand";
+}
+
+.section-white {
+	background-color: #FFFFFF;
+}
+
+.section-grey {
+	background-color: #FAFAFA;
+}
+
+.section .section-header {
+	font-family: "NexaBold";
+	font-weight: 500;
+}
+
+.footer {
+	background-color: #1B1E25;
+	color: #FFFFFF;
+
+	padding: 2% 0;
+
+	font-family: "NexaBold";
+}
+
+.footer .footer-section {
+	display: inline-block;
+	width: 49%;
+}
+
+.footer .footer-section > * {
+	margin: 0 0 0 5%;
+}
+
+.footer .footer-section #backtotop {
+	cursor: pointer;
+	text-align: right;
+	margin-right: 3%;
+}

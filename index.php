@@ -22,6 +22,9 @@
   </head>
 
   <body>
+    <?php
+      include "php/header.php";
+    ?>
     <h1>Temporary Links</h1>
     <a href="introtolaw.php">Introduction to Law</a>
   </body>
