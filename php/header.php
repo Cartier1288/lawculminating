@@ -4,10 +4,10 @@
 		<li class="dropdown" id="left">
 			<a class="dropdown-button">CATEGORIES</a>
 			<div class="dropdown-content">
-				<a href="thenatureoflaw.php">The Nature of Law</a>
+				<a href="overviewoflaw.php">Overview of Law</a>
 				<a href="legalheritage.php">Legal Heritage</a>
 				<a href="rightsandfreedoms.php">Rights and Freedoms</a>
-				<a href="COatL.php">Criminal Offences and the Law</a>
+				<a href="criminaloffences.php">Criminal Offences and the Law</a>
 				<a href="civillaw.php">Civil Law</a>
 			</div>
 		</h3>

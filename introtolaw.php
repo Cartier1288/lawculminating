@@ -35,6 +35,10 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna lacus, venenatis non mauris ut, vehicula vestibulum odio. Proin in lobortis neque, at hendrerit velit. Donec sollicitudin viverra risus. Integer posuere purus sit amet commodo vehicula. Nulla vel pharetra libero. Aenean sit amet libero lacinia, viverra erat non, commodo arcu. In id rhoncus nisi, ac tempor leo. Nunc ut ante magna. Sed arcu arcu, ullamcorper sed gravida sit amet, bibendum ut lectus. Nunc accumsan porta pharetra.
       </p>
+      <div class="diagram diagram-left">
+        <img src="img/tempdiagram.png" alt="Diagram" />
+        <p class="diagram-description">This is a diagram representing... Lorem ipsum</p>
+      </div>
       <p>
         In lorem augue, ullamcorper ut commodo eget, egestas eget arcu. Suspendisse quis facilisis nisl. Donec vel diam elit. Quisque vehicula quam eu purus vestibulum, ut luctus lacus posuere. Suspendisse odio ex, efficitur sit amet ligula nec, aliquam pellentesque eros. Proin non cursus urna, non iaculis nunc. Vivamus imperdiet congue elit, nec blandit felis lacinia fringilla. Nulla ut porttitor lacus. Cras dignissim dui vitae enim sodales pellentesque. Aenean non tellus ut enim rutrum commodo. Nunc rhoncus ligula ex, vel pulvinar sem faucibus ultrices. Vestibulum imperdiet, nulla eget gravida aliquet, turpis tellus consequat tortor, ut semper justo magna in sem.
       </p>

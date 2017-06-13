@@ -67,6 +67,8 @@ body {
 	src: url("../fonts/Saturday be like Madness.ttf");
 }
 
+
+/***********#####-----Header-----#####***********/
 .header {
 	background-color: #FFFFFF;
 	clear: both;
@@ -85,9 +87,10 @@ body {
 
 	font-family: "SaturdayBeLike";
 	font-weight: 500;
-	font-size: 4em;
+	font-size: 5em;
 
-	margin: 0;
+	margin-top: -0.2em;
+	margin-left: -24px;
 }
 
 .header .header-options {
@@ -137,30 +140,6 @@ body {
 	border-bottom: solid 1px #1B1E25;
 }
 
-.title-section {
-	background-color: #1B1E25;
-	color: #FFFFFF;
-
-	padding: 5% 0;
-
-	text-align: center;
-}
-
-.title-section .title {
-	font-family: "BebasNeue";
-	font-weight: 500;
-	font-size: 3.5em;
-
-	margin: 0;
-}
-
-.title-section .title-description {
-	font-family: "NexaLight";
-	font-size: 18px;
-
-	margin: 0;
-}
-
 .dropdown {
 	position: relative;
 }
@@ -195,6 +174,100 @@ body {
 	display: block;
 }
 
+
+/***********#####-----Special Pages-----#####***********/
+.special-page {
+	background-color: #FAFAFA;
+
+	border-top: solid 2px #1B1E25;
+	padding: 3% 20%;
+
+	color: #1B1E25;
+}
+
+.special-page .title {
+	font-family: "BebasNeue";
+	font-weight: 500;
+
+	font-size: 4.0em;
+
+	margin-top: 0;
+
+	text-align: center;
+}
+
+
+/***********#####-----Special Pages-----#####***********/
+.links {
+
+}
+
+.links .category {
+	border: solid 2px #1B1E25;
+	padding: 0 0 2% 0;
+	margin-bottom: 4%;
+}
+
+.links .link {
+	font-family: "NexaLight";
+	font-size: 20px;
+}
+
+.links .link a {
+	color: #1B1E25;;
+	text-decoration: none;
+}
+
+.links .link-header {
+	padding: 0 2%;
+	margin-bottom: 3%;
+
+	background-color: #1B1E25;
+
+	font-family: "NexaBold";
+	font-size: 24px;
+}
+
+.links .link-header a {
+	color: #FFFFFF;
+}
+
+.links .nested-links {
+	padding: 0 2% 0 4%;
+}
+
+.links .nested-links .link {
+	margin: 1% 0;
+}
+
+
+/***********#####-----Content Title-----#####***********/
+.title-section {
+	background-color: #1B1E25;
+	color: #FFFFFF;
+
+	padding: 5% 0;
+
+	text-align: center;
+}
+
+.title-section .title {
+	font-family: "BebasNeue";
+	font-weight: 500;
+	font-size: 3.5em;
+
+	margin: 0;
+}
+
+.title-section .title-description {
+	font-family: "NexaLight";
+	font-size: 18px;
+
+	margin: 0;
+}
+
+
+/***********#####-----Content Sections-----#####***********/
 .section {
 	padding: 2% 20% 2% 20%;
 	color: #1B1E25;
@@ -207,7 +280,7 @@ body {
 }
 
 .section-grey {
-	background-color: #FAFAFA;
+	background-color: #F1F1F1;
 }
 
 .section .section-header {
@@ -215,6 +288,30 @@ body {
 	font-weight: 500;
 }
 
+.section > p {
+	text-indent: 2em;
+}
+
+
+.diagram {
+	width: 40%;
+}
+
+.diagram-left {
+	float: left;
+	padding-right: 2em;
+}
+
+.diagram img {
+	width: 100%;
+}
+
+.diagram .diagram-description {
+	font-weight: bold;
+}
+
+
+/***********#####-----Footer-----#####***********/
 .footer {
 	background-color: #1B1E25;
 	color: #FFFFFF;
