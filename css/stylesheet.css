@@ -206,6 +206,8 @@ body {
 	border: solid 2px #1B1E25;
 	padding: 0 0 2% 0;
 	margin-bottom: 4%;
+
+	background-color: #FFFFFF;
 }
 
 .links .link {
@@ -216,6 +218,11 @@ body {
 .links .link a {
 	color: #1B1E25;;
 	text-decoration: none;
+}
+
+.links .nested-links .link:before {
+	font-family: "FontAwesome";
+	content: "\F101          ";
 }
 
 .links .link-header {
