@@ -27,7 +27,7 @@
     ?>
 
     <div class="special-page">
-      <h1 class="title">~ Sections of Canadian Law ~</h1>  
+      <h1 class="title">~ Sections of Canadian Law ~</h1>
 
       <div class="content">
         <div class="links">
@@ -38,7 +38,7 @@
               <div class="link"><a href="introtolaw.php">Introduction to Law</a></div>
             </div>
           </div>
-          
+
           <div class="category">
             <div class="link link-header"><a href="legalheritage.php">Legal Heritage</a></div>
             <div class="nested-links">
@@ -65,8 +65,11 @@
           <div class="category">
             <div class="link link-header"><a href="criminaloffences.php">Criminal Offences and the Law</a></div>
             <div class="nested-links">
+              <div class="link"><a href="canadiancrime.php">Crime and Canadian Crime</a></div>
+              <div class="link"><a href="criminalcode.php">Criminal Code of Canada</a></div>
               <div class="link"><a href="canadiancourts.php">Canadian Courts</a></div>
-              <div class="link"><a href="defencessentencing.php">Defences and Sentencing</a></div>
+              <div class="link"><a href="defences.php">Defences</a></div>
+              <div class="link"><a href="sentencing.php">Sentencing</a></div>
               <div class="link"><a href="canadianprisons.php">Canadian Prisons</a></div>
               <div class="link"><a href="youthcriminal.php">Youth Criminal Justice</a></div>
             </div>
