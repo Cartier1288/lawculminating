@@ -17,7 +17,7 @@ html {
 }
 
 body {
-	background: #FAFAFA;
+	background: #1B1E25;
 
 	color: #909090;
 
@@ -202,6 +202,10 @@ body {
 
 }
 
+.links-small {
+	padding: 4% 0;
+}
+
 .links .category {
 	border: solid 2px #1B1E25;
 	padding: 0 0 2% 0;
@@ -215,9 +219,21 @@ body {
 	font-size: 20px;
 }
 
+.links-small .link {
+	font-family: "NexaBold";
+	padding: 2% 0;
+}
+
 .links .link a {
 	color: #1B1E25;;
 	text-decoration: none;
+}
+
+.links .link .link-description {
+	font-family: "Quicksand";
+	font-size: 18px;
+
+	margin-top: 0;
 }
 
 .links .nested-links .link:before {
