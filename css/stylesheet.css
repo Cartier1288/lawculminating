@@ -334,6 +334,13 @@ body {
 }
 
 
+/***********#####-----Connected View-----#####***********/
+.connected-canvas {
+	height: 500px;
+	background-color: #F1F1F1;
+}
+
+
 /***********#####-----Footer-----#####***********/
 .footer {
 	background-color: #1B1E25;
